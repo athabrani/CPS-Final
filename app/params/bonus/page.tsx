@@ -5,10 +5,10 @@ import { poppins } from "../../styles/font";
 import { motion } from "framer-motion";
 
 const bonusPeople = [
-  { name: "Hanifah Kamiliya Darmawan", nim: "101012300127", division: "Praktikum", image: "/cand/bram.png" },
-  { name: "Aria Aura Rachman", nim: "101012400265", division: "Riset", image: "/cand/bram.png" },
-  { name: "Muhammad Lazuardi", nim: "101012300260", division: "Riset", image: "/cand/bram.png" },
-  { name: "Azka Favian Dzikra Gushendr", nim: "101012300325", division: "Praktikum", image: "/cand/bram.png" },
+  { name: "Hanifah Kamiliya Darmawan", nim: "101012300127", division: "Praktikum", image: "/cand/hani.png" },
+  { name: "Aria Aura Rachman", nim: "101012400265", division: "Riset", image: "/cand/aria.png" },
+  { name: "Muhammad Lazuardi", nim: "101012300260", division: "Riset", image: "/cand/lazuardi.png" },
+  { name: "Azka Favian Dzikra Gushendr", nim: "101012300325", division: "Praktikum", image: "/cand/azka.png" },
 ];
 
 export default function Bonus() {
@@ -47,7 +47,7 @@ export default function Bonus() {
                 alt={person.name}
                 width={200}
                 height={200}
-                className="mx-auto object-cover max-h-[210px] rounded-lg scale-114"
+                className="mx-auto object-cover max-h-[210px] scale-114"
               />
             </div>
             <div className="bg-white py-4 px-6">
@@ -64,7 +64,7 @@ export default function Bonus() {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 4, duration: 0.1, ease: "easeOut" }}
-        className="text-2xl md:text-3xl font-bold mt-16 text-center">
+        className="text-2xl md:text-5xl font-bold mt-16 text-center">
         KEJARR CARI SEKARANGGG PANGGILL KESINI !!!
         </motion.h2>
     </main>
